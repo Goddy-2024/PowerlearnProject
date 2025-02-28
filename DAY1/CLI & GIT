@@ -15,7 +15,19 @@ FOR GIT CONFIGURATION
 in your windows powershell
 .>>>git config --global user.name "Goddy-2024"
 .>>>git config --global user.email "gaoajuoga@gmail.com"
-.>>>git init (initializez git in a project)
+.>>>git init (initializes git in a project)
 .>>>git add . (adds all the files in the environment directory to the reinitialized git repo C:/Users/GODSWILL/cardealership-app/.git/)
 .>>>git commit -m "Adds a commit message"
+.>>>git remote add origin https://github.com/Goddy-2024/PowerlearnProject/DAY1 -- connects remotely and adds the reinitialised virtual repo to the remote repository according to the url
+.>>>git push origin master -- pushes the changes to the remote repo
+
+=====
+***DOWNLOADING A PROJECT FROM GITHUB***
+.>>>git config --global user.name "Goddy-2024"
+.>>>git config --global user.email "gaoajuoga@gmail.com"
+.>>>git init (initializes git in a project)
+.>>>git clone https://github.com/Goddy-2024/PowerlearnProject.git
+THE FILES ARE SAVED IN THE WORKING DIRECTORY
+
+.
 
