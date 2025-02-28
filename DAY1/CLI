@@ -1,2 +1,0 @@
-creating a text file with command line interface
-.>>>echo "text content" > fileName.ext

@@ -1,0 +1,21 @@
+creating a text file with command line interface
+.>>>echo "text content" > fileName.ext
+---using ren command to rename files
+.>>>ren targetFileName newFileName
+---copying files:
+.>>>copy newDoc.docx backUp.docx --creates a copy of newDoc and saves it as backUp
+##You can also specify the destiation
+.>>>copy newDoc.docx DeatinationMap(C:\Users\GODSWILL\cardealership-app\newDoc)
+---moving a document:
+.>>>move fileName DeatinationMap(C:\Users\GODSWILL\cardealership-app)
+
+========
+    *GIT COMMANDS*
+FOR GIT CONFIGURATION
+in your windows powershell
+.>>>git config --global user.name "Goddy-2024"
+.>>>git config --global user.email "gaoajuoga@gmail.com"
+.>>>git init (initializez git in a project)
+.>>>git add . (adds all the files in the environment directory to the reinitialized git repo C:/Users/GODSWILL/cardealership-app/.git/)
+.>>>git commit -m "Adds a commit message"
+
