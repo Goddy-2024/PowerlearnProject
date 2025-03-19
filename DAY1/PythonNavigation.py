@@ -76,7 +76,20 @@ def stud_grading(marks):
         grade = "C"
     elif marks >= 60:
         grade = "D"
+    elif marks >= 40:
+        grade = "PASS"
     else:
-        grade = "pass"
+        grade = "FAIL"
     return grade 
 print(stud_grading(99))
+print(stud_grading(30))
+
+#PYTHON LOOPS -  They are used to repeat a block of code
+# for loop and while loop
+# for loop
+fruits = ["Apples", "Mangoes", "Bananas", "Guavas"]
+for fruit in fruits:
+    print(f"I love {fruit}!")#fruit is a loop variable
+#for loops using range: 
+for i in range(5):
+    print(f"I am a software Engineer, my tool of development is {my_languages[i]}")
